@@ -7,12 +7,55 @@
 <body>
 <form action="/" method="post">
     First name:<br>
-    <input type="text" name="firstname" value="Mickey"><br>
+    <input id = txtfirstname type="text" name="firstname" value="Mickey"><br>
     Last name:<br>
-    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input id = txtlastname type="text" name="lastname" value="Mouse"><br><br>
+
+    je suis un terroriste :<input id=chkTerroriste type="checkbox" name="terroriste"><br><br>
     <input type="submit" value="Submit">
+
 </form>
 
 
 </body>
+<script>
+    function chkTerroristeClick(){
+       if(chkTerroriste.checked){
+           alert("Attention Donald "+txtfirstname.value+" "+txtlastname.value+" est un terrorist")
+       }
+
+    }
+
+    chkTerroriste.addEventListener("click",chkTerroristeClick)
+
+    /*
+    //Fonction qui salue et retourne si la personne est majeur ou pas
+    function hello(name,age){
+        if(age>=18){
+            alert("Bonjour Monsieur "+name)
+            return true
+        }
+        else{
+            alert("Salut"+name)
+            return false
+        }
+
+    }
+    console.log(hello("Marwan",26))
+    console.log(hello("Johnny",19))
+    console.log(hello("Benoit",17))
+
+    /*
+    firstname = "Berthe"
+    age =  prompt("Quel age a "+firstname+"?")
+    if (age>18){
+        alert("bonjour madame "+ firstname)
+    }
+    else{
+        alert("bonjoour mademoiselle "+ firstname)
+    }
+    alert("tcho "+ firstname);
+
+     */
+</script>
 </html>
