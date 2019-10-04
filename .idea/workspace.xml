@@ -45,13 +45,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.Ex1.js">
+    <configuration name="Ex1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Ex1.js" working-dir="$PROJECT_DIR$/Exercice/Java">
+      <method v="2" />
+    </configuration>
     <configuration name="ICT-120" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8088">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Ex1.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,6 +76,7 @@
       <workItem from="1569239842703" duration="6113000" />
       <workItem from="1569844437513" duration="257000" />
       <workItem from="1569844756960" duration="6827000" />
+      <workItem from="1570188906774" duration="11834000" />
     </task>
     <servers />
   </component>
