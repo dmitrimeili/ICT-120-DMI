@@ -15,6 +15,8 @@ function init() {
     div5.addEventListener("click", divdestroy);
     div6nom.addEventListener("keyup", divpass);
     avm.addEventListener("click",avmClick);
+    pret.addEventListener("click",pretClick);
+    partez.addEventListener("click",partezClick)
 
 
 }
@@ -85,4 +87,32 @@ function avmClick() {
     partez.style.display="inline";
 
     img1.src="images/marks.png";
+}
+
+function pretClick() {
+    document.getElementById("avm").style.display="none";
+    document.getElementById("pret").disabled=true;
+    document.getElementById("partez").disabled=false;
+    img1.src="images/set.png";
+
+
+}
+
+function partezClick() {
+
+    document.getElementById("pret").style.display="none";
+    document.getElementById("partez").disabled=true;
+
+    img1.src="images/go.png";
+
+    setTimeout(
+        ()=>{
+            img1.src="images/empty.png";
+            document.getElementById("avm").disabled= false;
+            document.getElementById("avm").style.display="inline";
+            document.getElementById("pret").style.display="inline";
+            document.getElementById("partez").style.display="none";
+    },
+    3*1000
+    );
 }
