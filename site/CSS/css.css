@@ -1,0 +1,30 @@
+#divLogo{
+    float: left;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: blue;
+}
+#imgLogo{
+    width: 100px;
+    height: 100px;
+
+}
+#divRaccourci{
+    height: 100px;
+}
+#btActivite{
+    width: 25%;
+    height: 50px;
+}
+#btHebergement{
+    width: 25%;
+    height: 50px;
+}
+#btParticipant{
+    width: 25%;
+    height: 50px;
+}
+#btTransport{
+    width: 24%;
+    height: 50px;
+}

@@ -1,4 +1,4 @@
-/*
+ /*
 program: exercice
 Name: Dmitri Meili
 Version: 1.2

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2858542d-7b8e-43e9-b029-8e168e86a73e" name="Default Changelist" comment="" />
+    <list default="true" id="4700fb3f-e994-4c1a-a579-247478cf6ae9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +23,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1PxrbAEJ3Nof6WoEMFKlHQQzGgs" />
+  <component name="ProjectId" id="1S3nmBF672owIocYvK8XcE6hkzc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/tools/php73/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
@@ -45,41 +44,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Ex1.js">
-    <configuration name="Ex1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Ex1.js" working-dir="$PROJECT_DIR$/Exercice/Java">
-      <method v="2" />
-    </configuration>
-    <configuration name="ICT-120" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8088">
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.Ex1.js" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2858542d-7b8e-43e9-b029-8e168e86a73e" name="Default Changelist" comment="" />
-      <created>1566826657176</created>
+      <changelist id="4700fb3f-e994-4c1a-a579-247478cf6ae9" name="Default Changelist" comment="" />
+      <created>1570801303994</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566826657176</updated>
-      <workItem from="1566826659203" duration="1254000" />
-      <workItem from="1568294846189" duration="3105000" />
-      <workItem from="1569239842703" duration="6113000" />
-      <workItem from="1569844437513" duration="257000" />
-      <workItem from="1569844756960" duration="6827000" />
-      <workItem from="1570188906774" duration="11834000" />
-      <workItem from="1570448239979" duration="7788000" />
-      <workItem from="1570793826842" duration="2420000" />
-      <workItem from="1570801979116" duration="2325000" />
+      <updated>1570801303994</updated>
+      <workItem from="1570801307898" duration="608000" />
+      <workItem from="1571738641923" duration="7251000" />
     </task>
     <servers />
   </component>
