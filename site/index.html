@@ -15,16 +15,54 @@
     <a href="https://www.cpnv.ch/">site du cpnv</a>
 </div>
 <div id="divMenu">
-    <button id="btParticipant">Les participants</button>
+    <button id="btParticipant" class="btMenu">Les participants</button>
     <button id="btTransport">Les Transports</button>
-    <button id="btActivite">Les Activitée</button>
-    <button id="btHebergement">L'Hébergement</button>
+    <button id="btActivite" class="btMenu">Les Activitée</button>
+    <button id="btHebergement" class="btMenu">L'Hébergement</button>
 </div>
 <div id="divParticipant">contenu indisponible</div>
 <div id="divTransport">contenu indisponible</div>
 <div id="divActivite">contenu indisponible</div>
 <div id="divHebergement">
-    <div id="divContenu">Contenu</div>
+    Adresse: Pékin chemin de tao 24<br>
+    Contact réception: +86 890 87 34 67<br>
+    <button id="btConfRes">Confirmation de la réservation</button>
+    <br>
+    <div id="divMail">
+        <object id="txtMail" data="Mail/Mail.txt" type="text/plain"></object>
+    </div>
+    <div id="divChambres">
+        <select id="lstChambre" size="number_of_options">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option2</option>
+            <option value="Option3">Option3</option>
+        </select>
+        <button id="btChangerVue">Changer de vue</button>
+        <div id="divDetChambre">
+            Nombres d'occupants max:<span id="nbOccMax"></span><br>
+            Nombres d'occupant prévu:<br>
+            Numéro de chambre:<br>
+        </div>
+        <button id="btChecklist">Checklist d'arrivé/départ</button>
+        <div id="divAjoutSupp">
+        <button id="btAjouter">Ajouter</button>
+        <input type="text" id="name"  required size="10"><br><br>
+            <button id="btSupp" size="18">Supprimer</button>
+        </div>
+        <div id="listeOcc">
+            Listes des occupants<br><br>
+            <form>
+                <p>Texte à l'intérieur du formulaire</p>
+            </form>
+        </div>
+    </div>
+    <div id="divChecklist">
+        ceci est une checklist<br>
+        <input type="checkbox" id="chk1">ceci est un checkbox<br>
+    </div>
+    <div id="divPersonne">
+
+    </div>
 </div>
 </body>
 <script src="JS/java.js"></script>
