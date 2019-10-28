@@ -26,9 +26,7 @@
     height: 50px;
 }
 
-#txtMail {
-    border-style: solid;
-}
+
 
 #btChangerVue {
     float: right;
@@ -38,9 +36,8 @@
 }
 
 #divChambres {
-    height: 200px;
-    border-style: solid;
-    border-width: 2px;
+    height: 300px;
+
 }
 
 #divDetChambre {
@@ -71,4 +68,13 @@
     position:relative;
     left:85%;
     bottom: 100px;
+}
+.divBorder{
+    border-style: solid;
+    border-width: 1px;
+
+}
+#divEleve{
+    width:100px;
+
 }

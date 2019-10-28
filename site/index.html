@@ -29,31 +29,33 @@
     <button id="btConfRes">Confirmation de la réservation</button>
     <br>
     <div id="divMail">
-        <object id="txtMail" data="Mail/Mail.txt" type="text/plain"></object>
+        <object class="divBorder" id="txtMail" data="Mail/Mail.txt" type="text/plain"></object>
     </div>
-    <div id="divChambres">
+    <div class="divBorder"id="divChambres">
         <select id="lstChambre" size="number_of_options">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option2</option>
-            <option value="Option3">Option3</option>
+            <option value="1">Chambre 1</option>
+            <option value="2">Chambre 2</option>
+            <option value="3">Chambre 3</option>
         </select>
         <button id="btChangerVue">Changer de vue</button>
         <div id="divDetChambre">
-            Nombres d'occupants max:<span id="nbOccMax"></span><br>
-            Nombres d'occupant prévu:<br>
-            Numéro de chambre:<br>
+            Nombres d'occupants max: <span id="nbOccMax">..</span><br>
+            Nombres d'occupant prévu: <span id="nbOccPrev">..</span><br>
+            Numéro de chambre: <span id="NumChambre">..</span><br>
         </div>
         <button id="btChecklist">Checklist d'arrivé/départ</button>
         <div id="divAjoutSupp">
-        <button id="btAjouter">Ajouter</button>
-        <input type="text" id="name"  required size="10"><br><br>
+            <button id="btAjouter">Ajouter</button>
+            <input type="text" id="txtName" required size="10"><br><br>
             <button id="btSupp" size="18">Supprimer</button>
         </div>
         <div id="listeOcc">
             Listes des occupants<br><br>
-            <form>
-                <p>Texte à l'intérieur du formulaire</p>
-            </form>
+            <div class="divBorder" id="divEleve">
+               <ul id="ListeEleve">
+
+               </ul>
+            </div>
         </div>
     </div>
     <div id="divChecklist">
