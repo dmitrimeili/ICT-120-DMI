@@ -4,7 +4,9 @@
     max-height: 100px;
     background-color: blue;
 }
-
+.divGrand{
+    height: 300px;
+}
 #imgLogo {
     width: 100px;
     height: 100px;
@@ -33,11 +35,6 @@
     position: relative;
     right: 10px;
     top: 10px;
-}
-
-#divChambres {
-    height: 300px;
-
 }
 
 #divDetChambre {
@@ -77,4 +74,31 @@
 #divEleve{
     width:100px;
 
+}
+#divRdArrive{
+    position: relative;
+    left: 5%;
+    top: 50px;
+
+}
+
+.textarea{
+    width:10%;
+    height:120px;
+}
+#divRemarque{
+    position: relative;
+    left: 13%;
+    bottom: 85px;
+}
+
+#divRdDepart{
+    position: relative;
+    left: 75%;
+    bottom: 225px;
+}
+#divRemarque2{
+    position: relative;
+    left: 87%;
+    bottom: 325px;
 }

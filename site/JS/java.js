@@ -82,7 +82,7 @@ function lstChambreChange() {
 
 function btChecklistClick() {
     if (divChecklist.style.display === "none") {
-        divChecklist.style.display = "inline";
+        divChecklist.style.display = "block";
     } else {
         divChecklist.style.display = "none";
     }

@@ -31,7 +31,7 @@
     <div id="divMail">
         <object class="divBorder" id="txtMail" data="Mail/Mail.txt" type="text/plain"></object>
     </div>
-    <div class="divBorder"id="divChambres">
+    <div class="divBorder divGrand" id="divChambres">
         <select id="lstChambre" size="number_of_options">
             <option value="1">Chambre 1</option>
             <option value="2">Chambre 2</option>
@@ -52,17 +52,45 @@
         <div id="listeOcc">
             Listes des occupants<br><br>
             <div class="divBorder" id="divEleve">
-               <ul id="ListeEleve">
+                <ul id="ListeEleve">
 
-               </ul>
+                </ul>
             </div>
         </div>
     </div>
-    <div id="divChecklist">
-        ceci est une checklist<br>
-        <input type="checkbox" id="chk1">ceci est un checkbox<br>
+    <br>
+    <div id="divChecklist" class="divBorder divGrand">
+
+        <div id="divRdArrive" >
+            Checklist d'arrivée<br>
+            <input type="radio" id="rdLit"> Lits<br>
+            <input type="radio" id="rdDouche"> Douches<br>
+            <input type="radio" id="rdCouverture"> Couvertures<br>
+            <input type="radio" id="rdLinge"> Linges<br>
+            <input type="radio" id="rdSavon"> Savon<br>
+            <input type="radio" id="rdLumiere"> Lumières<br>
+        </div>
+        <div id="divRemarque">
+            Remarques<br>
+            <textarea class="textarea"></textarea>
+        </div>
+
+        <div id="divRdDepart" >
+            Checklist d'arrivée<br>
+            <input type="radio" id="rdLit2"> Lits<br>
+            <input type="radio" id="rdDouche2"> Douches<br>
+            <input type="radio" id="rdCouverture2"> Couvertures<br>
+            <input type="radio" id="rdLinge2"> Linges<br>
+            <input type="radio" id="rdSavon2"> Savon<br>
+            <input type="radio" id="rdLumiere2"> Lumières<br>
+        </div>
+        <div id="divRemarque2">
+            Remarques<br>
+            <textarea class="textarea"></textarea>
+        </div>
     </div>
-    <div id="divPersonne">
+    <br>
+    <div id="divPersonne" class="divBorder divGrand">
 
     </div>
 </div>
