@@ -18,15 +18,11 @@
 }
 
 .btMenu {
-    width: 25%;
     height: 50px;
+
 }
 
 
-#btTransport {
-    width: 24%;
-    height: 50px;
-}
 
 
 
@@ -93,12 +89,12 @@
 }
 
 #divRdDepart{
-    position: relative;
+    position: absolute;
     left: 75%;
     bottom: 225px;
 }
 #divRemarque2{
-    position: relative;
+    position: absolute;
     left: 87%;
-    bottom: 325px;
+    bottom: 360px;
 }

@@ -17,11 +17,11 @@
 <div id="divRaccourci">
     <a href="https://www.cpnv.ch/">site du cpnv</a>
 </div>
-<div id="divMenu">
-    <button id="btParticipant" class="btMenu">Les participants</button>
-    <button id="btTransport">Les Transports</button>
-    <button id="btActivite" class="btMenu">Les Activitée</button>
-    <button id="btHebergement" class="btMenu">L'Hébergement</button>
+<div id="divMenu" class="btn-group col-12">
+    <button id="btParticipant" class=" btn btn-lg btn-primary">Les participants</button>
+    <button id="btTransport" class=" btn btn-lg btn-primary">Les Transports</button>
+    <button id="btActivite" class=" btn btn-lg btn-primary">Les Activités</button>
+    <button id="btHebergement" class=" btn btn-lg btn-primary">L'Hébergement</button>
 </div>
 <div id="divParticipant">contenu indisponible</div>
 <div id="divTransport">contenu indisponible</div>
@@ -29,34 +29,101 @@
 <div id="divHebergement">
     Adresse: Pékin chemin de tao 24<br>
     Contact réception: +86 890 87 34 67<br>
-    <button id="btConfRes">Confirmation de la réservation</button>
+    <button id="btConfRes" class="btn btn-outline-primary">Confirmation de la réservation</button>
+    <br>
     <br>
     <div id="divMail">
         <object class="divBorder" id="txtMail" data="Mail/Mail.txt" type="text/plain"></object>
     </div>
-    <div class="divBorder divGrand" id="divChambres">
+    <button id="btChangerVue" class="btn btn-outline-primary">Changer de vue</button>
+    <table id="TableChangerVue" class="table-striped table-bordered col-12 d-none">
+        <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Classe</th>
+            <th>Chambres</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+
+
+        </tr>
+        <tr>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+        </tr>
+        <tr>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+        </tr>
+        <tr>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+        </tr>
+        <tr>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+        </tr>
+        <tr>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+        </tr>
+        <tr>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+        </tr>
+        <tr>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+            <td> &nbsp;</td>
+
+        </tbody>
+    </table>
+    <div class="divBorder divGrand " id="divChambres">
         <select id="lstChambre" size="number_of_options">
             <option value="1">Chambre 1</option>
             <option value="2">Chambre 2</option>
             <option value="3">Chambre 3</option>
         </select>
-        <button id="btChangerVue">Changer de vue</button>
+
         <div id="divDetChambre">
             Nombres d'occupants max: <span id="nbOccMax">..</span><br>
             Nombres d'occupant prévu: <span id="nbOccPrev">..</span><br>
             Numéro de chambre: <span id="NumChambre">..</span><br>
         </div>
-        <button id="btChecklist">Checklist d'arrivé/départ</button>
+        <button id="btChecklist" class="btn btn-outline-primary">Checklist d'arrivé/départ</button>
         <div id="divAjoutSupp">
-            <button id="btAjouter">Ajouter</button>
+            <button id="btAjouter" class="btn-outline-primary">Ajouter</button>
             <input type="text" id="txtName" required size="10"><br><br>
-            <button id="btSupp" size="18">Supprimer</button>
+            <button id="btSupp" size="18" class="btn-outline-danger">Supprimer</button>
         </div>
         <div id="listeOcc">
             Listes des occupants<br><br>
-            <div class="divBorder" id="divEleve">
+            <div id="divEleve">
                 <ul id="ListeEleve">
-
+                    <li>tomas <input type="checkbox"></li>
+                    <li>sam <input type="checkbox" checked></li>
+                    <li>moi <input type="checkbox"></li>
                 </ul>
             </div>
         </div>
@@ -64,7 +131,7 @@
     <br>
     <div id="divChecklist" class="divBorder divGrand">
 
-        <div id="divRdArrive" >
+        <div id="divRdArrive">
             Checklist d'arrivée<br>
             <input type="radio" id="rdLit"> Lits<br>
             <input type="radio" id="rdDouche"> Douches<br>
@@ -78,7 +145,7 @@
             <textarea class="textarea"></textarea>
         </div>
 
-        <div id="divRdDepart" >
+        <div id="divRdDepart">
             Checklist d'arrivée<br>
             <input type="radio" id="rdLit2"> Lits<br>
             <input type="radio" id="rdDouche2"> Douches<br>
@@ -94,6 +161,9 @@
     </div>
     <br>
     <div id="divPersonne" class="divBorder divGrand">
+        <br>
+        <button id="btRechercherPers" class="btn-outline-primary">Rechercher un personne</button>
+        <input type="text" id="txtPers" required size="10">
 
     </div>
 </div>
