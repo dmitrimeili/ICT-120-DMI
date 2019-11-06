@@ -4,9 +4,7 @@
     max-height: 100px;
     background-color: blue;
 }
-.divGrand{
-    height: 300px;
-}
+
 #imgLogo {
     width: 100px;
     height: 100px;
@@ -33,7 +31,7 @@
     top: 10px;
 }
 
-#divDetChambre {
+.divDetChambre {
     position: relative;
     top: 50px;
     left: 15%;
@@ -62,11 +60,7 @@
     left:85%;
     bottom: 100px;
 }
-.divBorder{
-    border-style: solid;
-    border-width: 1px;
 
-}
 #divEleve{
     width:100px;
 
@@ -74,8 +68,6 @@
 #divRdArrive{
     position: relative;
     left: 5%;
-    top: 50px;
-
 }
 
 .textarea{
@@ -85,16 +77,23 @@
 #divRemarque{
     position: relative;
     left: 13%;
-    bottom: 85px;
+
 }
 
 #divRdDepart{
-    position: absolute;
+
+    position: relative;
     left: 75%;
-    bottom: 225px;
+
 }
 #divRemarque2{
-    position: absolute;
+    position: relative;
     left: 87%;
-    bottom: 360px;
+
 }
+#listeOcc2{
+    position:relative;
+    left:65%;
+    bottom: 100px;
+}
+
