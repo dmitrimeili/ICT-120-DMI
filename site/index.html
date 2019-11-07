@@ -99,14 +99,14 @@
 
         </tbody>
     </table>
-    <div class="divBorder divGrand " id="divChambres">
+    <div class="border border-dark rounded " id="divChambres">
         <select id="lstChambre" size="number_of_options">
             <option value="1">Chambre 1</option>
             <option value="2">Chambre 2</option>
             <option value="3">Chambre 3</option>
         </select>
 
-        <div id="divDetChambre">
+        <div id="divDetChambre" class="divDetChambre">
             Nombres d'occupants max: <span id="nbOccMax">..</span><br>
             Nombres d'occupant prévu: <span id="nbOccPrev">..</span><br>
             Numéro de chambre: <span id="NumChambre">..</span><br>
@@ -121,15 +121,15 @@
             Listes des occupants<br><br>
             <div id="divEleve">
                 <ul id="ListeEleve">
-                    <li>tomas <input type="checkbox"></li>
-                    <li>sam <input type="checkbox" checked></li>
-                    <li>moi <input type="checkbox"></li>
+                    <li>tomas<input type="checkbox"></li>
+                    <li>sam<input type="checkbox" checked></li>
+                    <li>moi<input type="checkbox"></li>
                 </ul>
             </div>
         </div>
     </div>
     <br>
-    <div id="divChecklist" class="divBorder divGrand">
+    <div id="divChecklist" class="border border-dark rounded">
 
         <div id="divRdArrive">
             Checklist d'arrivée<br>
@@ -146,7 +146,7 @@
         </div>
 
         <div id="divRdDepart">
-            Checklist d'arrivée<br>
+            Checklist de départ<br>
             <input type="radio" id="rdLit2"> Lits<br>
             <input type="radio" id="rdDouche2"> Douches<br>
             <input type="radio" id="rdCouverture2"> Couvertures<br>
@@ -160,12 +160,27 @@
         </div>
     </div>
     <br>
-    <div id="divPersonne" class="divBorder divGrand">
+    <div id="divPersonne" class=" border border-dark rounded">
         <br>
         <button id="btRechercherPers" class="btn-outline-primary">Rechercher un personne</button>
         <input type="text" id="txtPers" required size="10">
-
+        <div id="divDetailChambre" class="divDetChambre">
+            Nombres d'occupants max: <span id="nbOccMax2">..</span><br>
+            Nombres d'occupant prévu: <span id="nbOccPrev2">..</span><br>
+            Numéro de chambre: <span id="NumChambre2">..</span><br>
+        </div>
+        <div id="listeOcc2">
+            Listes des occupants<br><br>
+            <div id="divEleve2">
+                <ul id="ListeElev2">
+                    <li>tomas</li>
+                    <li>sam</li>
+                    <li>moi</li>
+                </ul>
+            </div>
+        </div>
     </div>
+
 </div>
 </body>
 <script src="JS/java.js"></script>
