@@ -145,6 +145,6 @@ function btSuppClick() {
 
     }
 
-document.getElementsByClassName(chambre1)
+
 
 }
