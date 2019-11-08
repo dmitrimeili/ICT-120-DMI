@@ -91,19 +91,29 @@ function btChecklistClick() {
 }
 
 var Eleve;
-
+var inp
 function btAjouterClick() {
 
     if (txtName.value === "") {
         alert("veuillez insérer un prénom");
     } else {
+        Eleve = document.createElement("li");
+
+
         chk = document.createElement("input");
         chk.type = "checkbox";
-        Eleve = document.createElement("li");
-        Eleve.classList.add("list-group-item");
-        Eleve.innerText = txtName.value;
+        lbl= document.createElement("label");
+        lbl.innerText=txtName.value
+
         ListeEleve.appendChild(Eleve);
         Eleve.appendChild(chk);
+        Eleve.appendChild(lbl);
+
+
+
+        ListeEleve.appendChild(Eleve);
+
+
 
     }
 }
@@ -121,22 +131,20 @@ function btChangerVueClick() {
 }
 
 function btSuppClick() {
-    alert(ListeEleve.children.length)
-    for (i = 0; i < ListeEleve.children.length; i++) {
-        Eleve = ListeEleve.children
-        alert(ListeEleve.children[i])
+
+    for (i = ListeEleve.children.length-1; i >= 0 ; i--) {
+        Eleve = ListeEleve.children[i]
+        console.log(ListeEleve.children[i])
         inp = Eleve.firstChild
-        alert(inp)
-        if (inp.type == "checkbox") {
+        console.log(inp)
+
             if (inp.checked) {
                 Eleve.parentNode.removeChild(Eleve);
             }
-        }
+
 
     }
 
-    if (Eleve.firstChild.checked == true) {
-        Eleve.parentNode.removeChild(Eleve);
-    }
+document.getElementsByClassName(chambre1)
 
 }
