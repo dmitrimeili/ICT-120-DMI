@@ -9,8 +9,8 @@ function init() {
     lstChambre.addEventListener("change", lstChambreChange);
     btChecklist.addEventListener("click", btChecklistClick);
     btAjouter.addEventListener("click", btAjouterClick);
-    btChangerVue.addEventListener("click",btChangerVueClick);
-    btSupp.addEventListener("click",btSuppClick);
+    btChangerVue.addEventListener("click", btChangerVueClick);
+    btSupp.addEventListener("click", btSuppClick);
 
     divHebergement.style.display = "none";
     divTransport.style.display = "none";
@@ -19,7 +19,7 @@ function init() {
     divChecklist.style.display = "none";
 
 }
-var Eleve;
+
 function btHebergementClick() {
     divHebergement.style.display = "inline";
     divTransport.style.display = "none";
@@ -90,36 +90,61 @@ function btChecklistClick() {
     }
 }
 
+var Eleve;
+var inp
 function btAjouterClick() {
 
     if (txtName.value === "") {
         alert("veuillez insérer un prénom");
     } else {
-        chk = document.createElement("input");
-        chk.type="checkbox";
         Eleve = document.createElement("li");
-        Eleve.classList.add("list-group-item");
-        Eleve.innerText = txtName.value;
+
+
+        chk = document.createElement("input");
+        chk.type = "checkbox";
+        lbl= document.createElement("label");
+        lbl.innerText=txtName.value
+
         ListeEleve.appendChild(Eleve);
         Eleve.appendChild(chk);
+        Eleve.appendChild(lbl);
+
+
+
+        ListeEleve.appendChild(Eleve);
+
+
 
     }
 }
+
 function btChangerVueClick() {
-    if(divChambres.style.display === "none"){
-        divChambres.style.display="block";
+    if (divChambres.style.display === "none") {
+        divChambres.style.display = "block";
         TableChangerVue.classList.add("d-none");
 
-    }
-    else{
-        divChambres.style.display="none";
+    } else {
+        divChambres.style.display = "none";
         TableChangerVue.classList.remove("d-none");
     }
-    
+
 }
+
 function btSuppClick() {
-    if(Eleve.firstChild===chk.checked){
-        ListeEleve.parentNode.removeChild(ListeEleve);
+
+    for (i = ListeEleve.children.length-1; i >= 0 ; i--) {
+        Eleve = ListeEleve.children[i]
+        console.log(ListeEleve.children[i])
+        inp = Eleve.firstChild
+        console.log(inp)
+
+            if (inp.checked) {
+                Eleve.parentNode.removeChild(Eleve);
+            }
+
+
     }
+
+
 
 }

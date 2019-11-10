@@ -21,9 +21,6 @@
 }
 
 
-
-
-
 #btChangerVue {
     float: right;
     position: relative;
@@ -48,52 +45,63 @@
     left: 15%;
     top: 100px;
 }
-#divAjoutSupp{
-    position:relative;
-    left:50%;
+
+#divAjoutSupp {
+    position: relative;
+    left: 50%;
 }
-#btSupp{
-    width:155px;
+
+#btSupp {
+    width: 155px;
 }
-#listeOcc{
-    position:relative;
-    left:85%;
+
+#listeOcc {
+    position: relative;
+    left: 85%;
     bottom: 100px;
 }
 
-#divEleve{
-    width:100px;
+#divEleve {
+    width: 100px;
 
 }
-#divRdArrive{
+
+#divRdArrive {
     position: relative;
     left: 5%;
+
 }
 
-.textarea{
-    width:10%;
-    height:120px;
+.textarea {
+    width: 10%;
+
+
 }
-#divRemarque{
+
+#divRemarque {
     position: relative;
-    left: 13%;
+    float:right;
 
 }
+#divRemarque2 {
+    position: relative;
 
-#divRdDepart{
+
+}
+#divRdDepart {
 
     position: relative;
-    left: 75%;
+
 
 }
-#divRemarque2{
+
+
+
+#listeOcc2 {
     position: relative;
-    left: 87%;
-
-}
-#listeOcc2{
-    position:relative;
-    left:65%;
+    left: 65%;
     bottom: 100px;
 }
-
+#divCheckArr{
+    float:left;
+}

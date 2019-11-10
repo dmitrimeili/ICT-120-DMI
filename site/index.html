@@ -36,7 +36,7 @@
         <object class="divBorder" id="txtMail" data="Mail/Mail.txt" type="text/plain"></object>
     </div>
     <button id="btChangerVue" class="btn btn-outline-primary">Changer de vue</button>
-    <table id="TableChangerVue" class="table-striped table-bordered col-12 d-none">
+    <table id="TableChangerVue" class="table-striped table-bordered col-12 d-none m-5">
         <thead>
         <tr>
             <th>Nom</th>
@@ -48,30 +48,30 @@
         </thead>
         <tbody>
         <tr>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
+            <td id=""> Meili</td>
+            <td> Dmitri</td>
+            <td> SC-CMI2a</td>
+            <td> 1</td>
 
 
         </tr>
         <tr>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
+            <td> Grossman</td>
+            <td> Thomas</td>
+            <td> SC-CMI2a</td>
+            <td> 1</td>
+        </tr>
+        <tr>
+            <td> Pierrehumbert</td>
+            <td> Benoït</td>
+            <td> SC-CMI2a</td>
+            <td> 1</td>
         </tr>
         <tr>
             <td> &nbsp;</td>
             <td> &nbsp;</td>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
-        </tr>
-        <tr>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
-            <td> &nbsp;</td>
+            <td> SC-CMI2a</td>
+            <td> 1</td>
         </tr>
         <tr>
             <td> &nbsp;</td>
@@ -121,30 +121,28 @@
             Listes des occupants<br><br>
             <div id="divEleve">
                 <ul id="ListeEleve">
-                    <li>tomas<input type="checkbox"></li>
-                    <li>sam<input type="checkbox" checked></li>
-                    <li>moi<input type="checkbox"></li>
+
                 </ul>
             </div>
         </div>
     </div>
     <br>
     <div id="divChecklist" class="border border-dark rounded">
-
-        <div id="divRdArrive">
-            Checklist d'arrivée<br>
-            <input type="radio" id="rdLit"> Lits<br>
-            <input type="radio" id="rdDouche"> Douches<br>
-            <input type="radio" id="rdCouverture"> Couvertures<br>
-            <input type="radio" id="rdLinge"> Linges<br>
-            <input type="radio" id="rdSavon"> Savon<br>
-            <input type="radio" id="rdLumiere"> Lumières<br>
+        <div id="divCheckArr">
+            <div id="divRdArrive" class="">
+                Checklist d'arrivée<br>
+                <input type="radio" id="rdLit"> Lits<br>
+                <input type="radio" id="rdDouche"> Douches<br>
+                <input type="radio" id="rdCouverture"> Couvertures<br>
+                <input type="radio" id="rdLinge"> Linges<br>
+                <input type="radio" id="rdSavon"> Savon<br>
+                <input type="radio" id="rdLumiere"> Lumières<br>
+            </div>
+            <div id="divRemarque">
+                Remarques<br>
+                <textarea class="textarea "></textarea>
+            </div>
         </div>
-        <div id="divRemarque">
-            Remarques<br>
-            <textarea class="textarea"></textarea>
-        </div>
-
         <div id="divRdDepart">
             Checklist de départ<br>
             <input type="radio" id="rdLit2"> Lits<br>
