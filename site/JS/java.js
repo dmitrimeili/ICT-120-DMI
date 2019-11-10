@@ -1,3 +1,9 @@
+/*
+Date: 10.11.2019
+Author: Dmitri Meili
+Project: java site
+Version: 1.13
+ */
 document.addEventListener("DOMContentLoaded", init)
 
 function init() {
@@ -67,6 +73,7 @@ function lstChambreChange() {
             nbOccMax.innerHTML = "5";
             nbOccPrev.innerHTML = "4";
             NumChambre.innerHTML = "1";
+
             break;
         case "2":
             nbOccMax.innerHTML = "4";
@@ -103,7 +110,7 @@ function btAjouterClick() {
         chk = document.createElement("input");
         chk.type = "checkbox";
         lbl= document.createElement("label");
-        lbl.innerText=txtName.value
+        lbl.innerText=txtName.value;
 
         ListeEleve.appendChild(Eleve);
         Eleve.appendChild(chk);
@@ -133,10 +140,10 @@ function btChangerVueClick() {
 function btSuppClick() {
 
     for (i = ListeEleve.children.length-1; i >= 0 ; i--) {
-        Eleve = ListeEleve.children[i]
-        console.log(ListeEleve.children[i])
-        inp = Eleve.firstChild
-        console.log(inp)
+        Eleve = ListeEleve.children[i];
+        console.log(ListeEleve.children[i]);
+        inp = Eleve.firstChild;
+        console.log(inp);
 
             if (inp.checked) {
                 Eleve.parentNode.removeChild(Eleve);

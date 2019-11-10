@@ -1,3 +1,9 @@
+/*
+Date: 10.11.2019
+Author: Dmitri Meili
+Project: css site
+Version: 1.13
+ */
 #divLogo {
     float: left;
     max-width: 100px;
@@ -73,24 +79,25 @@
 }
 
 .textarea {
-    width: 10%;
+    width: 200px;
+    height:100px;
+    max-height: 200px;
 
 
 }
 
-#divRemarque {
+.divRemarque {
     position: relative;
     float:right;
-
-}
-#divRemarque2 {
-    position: relative;
+    bottom:150px;
 
 
 }
+
 #divRdDepart {
 
     position: relative;
+
 
 
 }
@@ -104,4 +111,16 @@
 }
 #divCheckArr{
     float:left;
+    border: solid;
+    width:50%;
+    max-height: 300px;
+}
+#divCheckDep{
+    width:50%;
+    float:right;
+    border: solid;
+    max-height: 300px;
+}
+#divChecklist{
+    height:300px;
 }
