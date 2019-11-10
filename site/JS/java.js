@@ -6,7 +6,7 @@ Version: 1.13
  */
 document.addEventListener("DOMContentLoaded", init)
 
-function init() {
+function init() { //fontion init pour initialiser les fonctions au moment du chargement de la page
     btHebergement.addEventListener("click", btHebergementClick);
     btTransport.addEventListener("click", btTransportClick);
     btActivite.addEventListener("click", btActiviteClick);
@@ -26,7 +26,7 @@ function init() {
 
 }
 
-function btHebergementClick() {
+function btHebergementClick() { // fonction qui sers a afficher le contenu de la partie Hebergement
     divHebergement.style.display = "inline";
     divTransport.style.display = "none";
     divActivite.style.display = "none";
@@ -35,21 +35,21 @@ function btHebergementClick() {
     divMail.style.display = "none";
 }
 
-function btTransportClick() {
+function btTransportClick() {// fonction qui sers a afficher le contenu de la partie Transport
     divHebergement.style.display = "none";
     divTransport.style.display = "inline";
     divActivite.style.display = "none";
     divParticipant.style.display = "none";
 }
 
-function btActiviteClick() {
+function btActiviteClick() {// fonction qui sers a afficher le contenu de la partie Activité
     divHebergement.style.display = "none";
     divTransport.style.display = "none";
     divActivite.style.display = "inline";
     divParticipant.style.display = "none";
 }
 
-function btParticipantClick() {
+function btParticipantClick() {// fonction qui sers a afficher le contenu de la partie Participant
     divHebergement.style.display = "none";
     divTransport.style.display = "none";
     divActivite.style.display = "none";
@@ -57,7 +57,7 @@ function btParticipantClick() {
 
 }
 
-function btConfResClick() {
+function btConfResClick() {// fonction qui perment d'afficehr le mail de confirmation depuis un document txt
     if (divMail.style.display === "none") {
         divMail.style.display = "inline";
     } else {
@@ -67,7 +67,7 @@ function btConfResClick() {
 
 }
 
-function lstChambreChange() {
+function lstChambreChange() {// fonction qui perment d'afficher les info par rapport a chaque chambre
     switch (lstChambre.value) {
         case "1":
             nbOccMax.innerHTML = "5";
@@ -89,7 +89,7 @@ function lstChambreChange() {
     }
 }
 
-function btChecklistClick() {
+function btChecklistClick() {//fonction qui permet d'afficher la Checklist d'arrivé/départ
     if (divChecklist.style.display === "none") {
         divChecklist.style.display = "block";
     } else {
@@ -98,8 +98,8 @@ function btChecklistClick() {
 }
 
 var Eleve;
-var inp
-function btAjouterClick() {
+var inp;
+function btAjouterClick() {// fonction qui permet d'ajouter un élève
 
     if (txtName.value === "") {
         alert("veuillez insérer un prénom");
@@ -125,7 +125,7 @@ function btAjouterClick() {
     }
 }
 
-function btChangerVueClick() {
+function btChangerVueClick() {// fonction qui permet d'afficher tous les élèves avec leurs informations
     if (divChambres.style.display === "none") {
         divChambres.style.display = "block";
         TableChangerVue.classList.add("d-none");
@@ -137,7 +137,7 @@ function btChangerVueClick() {
 
 }
 
-function btSuppClick() {
+function btSuppClick() {// fonction qui permet de supprimer un élève
 
     for (i = ListeEleve.children.length-1; i >= 0 ; i--) {
         Eleve = ListeEleve.children[i];
