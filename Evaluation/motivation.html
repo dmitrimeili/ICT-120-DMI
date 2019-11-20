@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motivation</title>
+</head>
+<body>
+<div class="container-fluid flex-column">
+    <h2>Bonjour <span id="SpPrenom">(prénom)</span> <span id="SpNom">(nom)</span></h2>
+    <form action="thankyou.html">
+        <label>Veuillez décrire ci-dessous votre motivation à nous rejoindre, en au minimum 30 caractères et au maximum 144</label><br>
+        <textarea cols="60" rows="3" id="textarea"></textarea>
+        <div id="divTropCourt">Cette description est trop courte</div>
+        <div>Il vous reste <span id="SpCaractere">144</span> caractères</div>
+        <input type="submit" value="Ok">
+    </form>
+</div>
+</body>
+
+<script src="JS/JSmotivation.js"></script>
+</html>
